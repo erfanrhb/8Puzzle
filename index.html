@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>8Puzzle</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div class="title">
+    <button type="button" class="btn btn-outline-info" style="font-weight: bold;font-size: 30px">8 Puzzle</button>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="grid-container" style="text-align: center">
+            <div class="grid-row">
+                <input id="tile1" type="text" class="square-input" value="1">
+                <input id="tile2" type="text" class="square-input" value="2">
+                <input id="tile3" type="text" class="square-input" value="3">
+            </div>
+            <div class="grid-row">
+                <input id="tile4" type="text" class="square-input" value="4">
+                <input id="tile5" type="text" class="square-input" value="5">
+                <input id="tile6" type="text" class="square-input" value="6">
+            </div>
+            <div class="grid-row">
+                <input id="tile7" type="text" class="square-input" value="7">
+                <input id="tile8" type="text" class="square-input" value="8">
+                <input id="tile9" type="text" class="square-input" value="0">
+            </div>
+        </div>
+        <h2 class="title">فرم نهایی جواب</h2>
+    </div>
+
+    <div class="column">
+        <div id="tilesBox"></div>
+        <h5 id="counter" class="counter">0</h5>
+        <div id="timerDisplay" class="counter">زمان: <span id="timerValue">0</span> ثانیه</div>
+<!--        <h5 id="timer" class="counter">00:00</h5>-->
+    </div>
+
+
+    <div id="numberButtons"></div>
+
+</div>
+
+
+</body>
+
+<script src="index.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>

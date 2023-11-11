@@ -1,0 +1,93 @@
+body{
+  background-color: honeydew;
+  font-family: Arial;
+}
+.title {
+  margin: 20px;
+  text-align: center;
+}
+
+.counter{
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+.grid-container{
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%; /* Adjust the width as needed */
+  padding: 20px;
+  background-color: #fff;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 45%; /* Adjust the width as needed */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.square-input {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 22px;
+}
+
+#tilesBox {
+  height: 306px;
+  width: 306px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 2px solid black;
+}
+
+.number-block {
+  color: white;
+  background: #702CF6;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 78px;
+  cursor: pointer;
+}
+
+.void_class {
+  background: honeydew;
+  color: black;
+  cursor: not-allowed;
+}
+
+#numberButtons {
+  height: 100px;
+  width: 300px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+.reset_btn {
+  height: 30px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.reset_btn.focus,
+.reset_btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
